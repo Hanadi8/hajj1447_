@@ -1,5 +1,5 @@
 // ==========================================================================
-// PLACEHOLDER DATA — REPLACE WITH OFFICIAL CONTENT
+// PLACEHOLDER DATA — REPLACE WITH OFFICIAL CONTENT-
 // ==========================================================================
 import { GalleryItem } from "@/types";
 
