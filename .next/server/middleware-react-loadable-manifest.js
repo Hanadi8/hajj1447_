@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"components\\\\charts-lazy.tsx -> ./charts\":{\"id\":\"components\\\\charts-lazy.tsx -> ./charts\",\"files\":[\"static/chunks/_app-pages-browser_src_components_charts_tsx.js\"]}}"
