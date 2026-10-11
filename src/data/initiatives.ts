@@ -149,15 +149,15 @@ export const initiatives: Initiative[] = [
     shortDescription: "أول توسّع لمبادرة الاستقبال جغرافيًا ليشمل مطار الأمير عبدالمحسن بن عبدالعزيز الدولي بمحافظة ينبع.",
     description:
       "للمرة الأولى يقوم فرع الوزارة بتوسيع نطاق المبادرة الجغرافي ليشمل كل المنافذ الجوية بمنطقة المدينة المنورة التي يصل خلالها ضيوف الرحمن لأداء مناسكهم، سعيًا لتحقيق أعلى مستويات الأداء والتواجد في جميع المنافذ الحيوية. حظيت هذه المبادرة باهتمام واسع وكان لها الأثر الملموس، حيث تم بث أعمال التنفيذ على الهواء مباشرة في قنوات التلفزيون السعودي، وكانت بحضور وإشراف سعادة مساعد مدير عام الفرع لقطاع التنمية الاجتماعية الأستاذة عبير بنت عبدالله أبو ربيعة، ومشاركة بعض نزلاء مركز التأهيل الشامل بمحافظة ينبع.",
-    images: ["/images/initiatives/m3/im1.JPG",
-       "/images/initiatives/m3/im2.JPG",
-       "/images/initiatives/m3/im3.JPG",
-       "/images/initiatives/m3/im4.JPG",
-       "/images/initiatives/m3/im5.JPG",
-       "/images/initiatives/m3/im6.JPG",
-       "/images/initiatives/m3/im7.JPG",
-       "/images/initiatives/m3/im8.JPG",
-       "/images/initiatives/m3/im9.JPG",],
+    images: ["/images/initiatives/m3/im1.jpg",
+       "/images/initiatives/m3/im2.jpg",
+       "/images/initiatives/m3/im3.jpg",
+       "/images/initiatives/m3/im4.jpg",
+       "/images/initiatives/m3/im5.jpg",
+       "/images/initiatives/m3/im6.jpg",
+       "/images/initiatives/m3/im7.jpg",
+       "/images/initiatives/m3/im8.jpg",
+       "/images/initiatives/m3/im9.jpg",],
     year: "1447هـ",
     category: "استقبال ضيوف الرحمن",
     field: "الخدمات الميدانية",
@@ -387,7 +387,7 @@ export const initiatives: Initiative[] = [
     shortDescription: "مكتبة صور توثّق اللحظات الميدانية لمبادرات فرع الوزارة بمنطقة المدينة المنورة خلال موسم حج 1447هـ.",
     description:
       "مكتبة صور توثّق لحظات ميدانية من تنفيذ مبادرات الحج المختلفة — من التوزيع الخيري إلى استقبال ضيوف الرحمن والدعم النفسي والاجتماعي وضيافة الأطفال. أضف الصور الفعلية داخل public/images/initiatives/initiative-08/ وحدّث مصفوفة photos في src/data/initiatives.ts لتظهر هنا تلقائيًا، مصنّفة حسب الفئة مع إمكانية التصفية والتكبير.",
-    images:  ["/images/initiatives/m8/im1.JPG",],
+    images:  ["/images/initiatives/m8/im1.jpg",],
     year: "1447هـ",
     category: "مكتبة الصور",
     status: "مكتملة",
@@ -439,25 +439,25 @@ export const initiatives: Initiative[] = [
  
       //2
     {
-    src: "/images/initiatives/m8/im1.JPG",
+    src: "/images/initiatives/m8/im1.jpg",
     caption: "قائد..يتابع المهام",
     category: "قائد الفرع",
    
   },
     {
-    src: "/images/initiatives/m8/im2.JPG",
+    src: "/images/initiatives/m8/im2.jpg",
     caption: "قائد..يتابع المهام",
     category: "قائد الفرع",
    
   },
     {
-    src: "/images/initiatives/m8/im3.JPG",
+    src: "/images/initiatives/m8/im3.jpg",
     caption: "قائد..يتابع المهام",
     category: "قائد الفرع",
    
   },
     {
-    src: "/images/initiatives/m8/im4.JPG",
+    src: "/images/initiatives/m8/im4.jpg",
     caption: "قائد..يتابع المهام",
     category: "قائد الفرع",
    
@@ -476,7 +476,7 @@ export const initiatives: Initiative[] = [
   },
 
   {
-    src: "/images/initiatives/m8/im01.JPG",
+    src: "/images/initiatives/m8/im01.jpg",
     category: "حفاوة الترحيب",
     caption: "ابتسامة..تصف حفاوة الترحيب",
   },
@@ -493,7 +493,7 @@ export const initiatives: Initiative[] = [
   },
   //5
     {
-    src: "/images/initiatives/m8/im43.JPG",
+    src: "/images/initiatives/m8/im43.jpg",
     category: "موارد المدينة تستقبلكم",
     caption: "موارد المينة.. تسعد باستقبالكم",
   },
@@ -508,7 +508,7 @@ export const initiatives: Initiative[] = [
     caption: "موارد المينة.. تسعد باستقبالكم",
   },
     {
-    src: "/images/initiatives/m8/im46.JPG",
+    src: "/images/initiatives/m8/im46.jpg",
     category: "موارد المدينة تستقبلكم",
     caption: "موارد المينة.. تسعد باستقبالكم",
   },
@@ -579,7 +579,7 @@ export const initiatives: Initiative[] = [
     },
      //9
      {
-    src: "/images/initiatives/m8-2/im91.JPG",
+    src: "/images/initiatives/m8-2/im91.jpg",
     category: "تتضافر الجهود لخدمتكم",
     caption: "تتضافر الجهود..لتقديم خدمة مميزة"
     },
@@ -616,7 +616,7 @@ export const initiatives: Initiative[] = [
     },
     //11
      {
-    src: "/images/initiatives/m8-2/im11-1.JPG",
+    src: "/images/initiatives/m8-2/im11-1.jpg",
     category: "الجميع مبتهج بقدومكم",
     caption: "الجميع مبتهج بقدومكم"
     },
@@ -634,27 +634,27 @@ export const initiatives: Initiative[] = [
     },
     //12
      {
-    src: "/images/initiatives/m8-2/im12-1.JPG",
+    src: "/images/initiatives/m8-2/im12-1.jpg",
     category: "تخطيط وتوزيع المهام",
     caption: "تخطيط وتوزيع المهام"
     },
      {
-    src: "/images/initiatives/m8-2/im12-2.JPG",
+    src: "/images/initiatives/m8-2/im12-2.jpg",
     category: "تخطيط وتوزيع المهام",
     caption: "تخطيط وتوزيع المهام"
     },
      {
-    src: "/images/initiatives/m8-2/im12-3.JPG",
+    src: "/images/initiatives/m8-2/im12-3.jpg",
     category: "تخطيط وتوزيع المهام",
     caption: "تخطيط وتوزيع المهام"
     },
      {
-    src: "/images/initiatives/m8-2/im12-4.JPG",
+    src: "/images/initiatives/m8-2/im12-4.jpg",
     category: "تخطيط وتوزيع المهام",
     caption: "تخطيط وتوزيع المهام"
     },
      {
-    src: "/images/initiatives/m8-2/im12-5.JPG",
+    src: "/images/initiatives/m8-2/im12-5.jpg",
     category: "تخطيط وتوزيع المهام",
     caption: "تخطيط وتوزيع المهام"
     },
@@ -725,17 +725,17 @@ export const initiatives: Initiative[] = [
     caption: "عدسة الذكريات..سفير التجربة"
     },
      {
-    src: "/images/initiatives/m8-2/im16-2.JPG",
+    src: "/images/initiatives/m8-2/im16-2.jpg",
     category:"عدسة الذكريات",
     caption: "عدسة الذكريات..سفير التجربة"
     },
      {
-    src: "/images/initiatives/m8-2/im16-3.JPG",
+    src: "/images/initiatives/m8-2/im16-3.jpg",
     category:"عدسة الذكريات",
     caption: "عدسة الذكريات..سفير التجربة"
     },
      {
-    src: "/images/initiatives/m8-2/im16-4.JPG",
+    src: "/images/initiatives/m8-2/im16-4.jpg",
     category:"عدسة الذكريات",
     caption: "عدسة الذكريات..سفير التجربة"
     },
