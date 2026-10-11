@@ -1,5 +1,5 @@
 // ==========================================================================
-// PLACEHOLDER DATA — REPLACE WITH OFFICIAL CONTENT-
+// PLACEHOLDER DATA — REPLACE WITH OFFICIAL CONTENT
 // ==========================================================================
 import { GalleryItem } from "@/types";
 
@@ -13,17 +13,10 @@ const titles = [
   "لقاء تنسيقي مع الجهات الشريكة",
 ];
 
-
-const uppercaseExtensionIndexes = new Set([2, 6]);
-
-export const galleryItems: GalleryItem[] = Array.from({ length: 6 }, (_, i) => {
-  const num = i + 1;
-  const ext = uppercaseExtensionIndexes.has(num) ? "JPG" : "jpg";
-  return {
-    id: num,
-    image: /images/gallery/gallery-${String(num).padStart(2, "0")}.${ext},
-    title: titles[i],
-    category: categories[i],
-    initiativeId: (i % 8) + 1,
-  };
-});
+export const galleryItems: GalleryItem[] = Array.from({ length: 6 }, (_, i) => ({
+  id: i + 1,
+  image: `/images/gallery/gallery-${String(i + 1).padStart(2, "0")}.jpg`,
+  title: titles[i],
+  category: categories[i],
+  initiativeId: (i % 8) + 1,
+}));
