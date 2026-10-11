@@ -14,7 +14,7 @@ const titles = [
 ];
 
 
-const uppercaseExtensionIndexes = new Set([]);
+const uppercaseExtensionIndexes = new Set([2, 6]);
 
 export const galleryItems: GalleryItem[] = Array.from({ length: 6 }, (_, i) => {
   const num = i + 1;
