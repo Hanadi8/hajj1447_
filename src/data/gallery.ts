@@ -1,9 +1,15 @@
-// ==========================================================================
-// PLACEHOLDER DATA — REPLACE WITH OFFICIAL CONTENT-
-// ==========================================================================
+```tsx
 import { GalleryItem } from "@/types";
 
-const categories = ["المبادرات", "التطوع", "الميدان", "التدريب", "الفعاليات", "الشراكات"];
+const categories = [
+  "المبادرات",
+  "التطوع",
+  "الميدان",
+  "التدريب",
+  "الفعاليات",
+  "الشراكات",
+];
+
 const titles = [
   "صورة من فعاليات المبادرات",
   "متطوعون في خدمة ضيوف الرحمن",
@@ -13,17 +19,18 @@ const titles = [
   "لقاء تنسيقي مع الجهات الشريكة",
 ];
 
-// ملفات الصور 02 و06 محفوظة فعليًا بامتداد .JPG بأحرف كبيرة، والباقي بامتداد .jpg
-const uppercaseExtensionIndexes = new Set([2, 6]);
+export const galleryItems: GalleryItem[] = Array.from(
+  { length: 6 },
+  (_, i) => {
+    const num = i + 1;
 
-export const galleryItems: GalleryItem[] = Array.from({ length: 6 }, (_, i) => {
-  const num = i + 1;
-  const ext = uppercaseExtensionIndexes.has(num) ? "JPG" : "jpg";
-  return {
-    id: num,
-    image: `/images/gallery/gallery-${String(num).padStart(2, "0")}.${ext}`,
-    title: titles[i],
-    category: categories[i],
-    initiativeId: (i % 8) + 1,
-  };
-});
+    return {
+      id: num,
+      image: `/images/gallery/gallery-${String(num).padStart(2, "0")}.jpg`,
+      title: titles[i],
+      category: categories[i],
+      initiativeId: (i % 8) + 1,
+    };
+  }
+);
+```
